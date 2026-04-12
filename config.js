@@ -82,7 +82,7 @@ module.exports = {
   // ===== MEDIA & AUTOMATION =====
   MENTION_REPLY: settings.MENTION_REPLY || process.env.MENTION_REPLY || "false",
   MENU_IMAGE_URL: settings.MENU_IMAGE_URL || process.env.MENU_IMAGE_URL || "https://i.ibb.co/0VCDzzFQ/IMG-20260405-WA0251.jpg",
-  BOT_MEDIA_URL: settings.BOT_MEDIA_URL || process.env.BOT_MEDIA_URL || "https://i.ibb.co/0VCDzzFQ/IMG-20260405-WA0251.jpg"
+  BOT_MEDIA_URL: settings.BOT_MEDIA_URL || process.env.BOT_MEDIA_URL || "https://i.ibb.co/0VCDzzFQ/IMG-20260405-WA0251.jpg",
   AUTO_DOWNLOADER: settings.AUTO_DOWNLOADER || process.env.AUTO_DOWNLOADER || "false",
   
   // ===== SECURITY & ANTI-FEATURES =====
