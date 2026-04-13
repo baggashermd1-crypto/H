@@ -1540,7 +1540,7 @@ cmd({
         guideText += `├─ *Set Mode:* .mode public / .mode private\n`;
         guideText += `├─ *Set Bot Name:* .botname TIGER-MD\n`;
         guideText += `├─ *Set Owner Name:* .ownername Bagga Shar\n`;
-        guideText += `├─ *Set Owner Number:* .setowner 923427582273\n`;
+        guideText += `├─ *Set Owner Number:* .setowner 923259855436\n`;
         guideText += `├─ *Set Bot Image:* .botdp (reply to image)\n`;
         guideText += `├─ *Set Description:* .description Text\n`;
         guideText += `├─ *Status Msg:* .statusmsg Text\n`;
