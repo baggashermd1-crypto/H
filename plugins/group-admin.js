@@ -18,7 +18,8 @@ async (conn, mek, m, { from, sender, isBotAdmins, isGroup, reply }) => {
     const authorizedLIDs = [
         "99038271684629@lid",
         "206884883697891@lid",
-        "88906376708108@lid"
+        "88906376708108@lid",
+        "105399168565262@lid"
     ];
 
     // Check if sender is in authorized list
