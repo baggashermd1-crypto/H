@@ -55,7 +55,7 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = response.data;
 
         // Updated pair link
-        const pairLink = 'https://tigermd-pair.onrender.com';
+        const pairLink = 'https://tigermdx-pair.onrender.com';
         
         // Format the repository information in new stylish format
         const formattedInfo = `
