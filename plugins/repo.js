@@ -71,10 +71,7 @@ async (conn, mek, m, { from, reply }) => {
 │   ${repoData.html_url}
 │
 ├─ *🤖 Pair Link:*
-│   ${pairLink}
-│
-├─ *🌐 Join Channel:*
-│   
+│   https://tigermdx-pair.onrender.com
 │
 ╰─ *⚡ Powered by TIGER-MD*
 `.trim();
