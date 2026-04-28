@@ -1,6 +1,3 @@
-// ✅ Coded by JawadTechX for JAWAD MD
-// ⚙️ API: https://TIGER-tech.vercel.app/download/ytdl?url=
-
 const { cmd } = require('../command');
 const yts = require('yt-search');
 const axios = require('axios');
@@ -48,7 +45,7 @@ cmd({
         }, { quoted: mek });
 
         // ⚙️ Fetch from JawadTech API
-        const apiUrl = `https://TIGER-tech.vercel.app/download/ytdl?url=${encodeURIComponent(url)}`;
+        const apiUrl = `https://jawad-tech.vercel.app/download/ytdl?url=${encodeURIComponent(url)}`;
         const { data } = await axios.get(apiUrl);
 
         if (!data?.status || !data?.result?.mp4) {
